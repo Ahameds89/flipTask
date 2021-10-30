@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-30T17:12:54 IST" name="Suite" finished-at="2021-10-30T17:13:39 IST" duration-ms="45085">
+    <groups>
+    </groups>
+    <test started-at="2021-10-30T17:12:54 IST" name="TestClass" finished-at="2021-10-30T17:13:39 IST" duration-ms="45085">
+      <class name="com.flipTask.tests.TestClass">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.flipTask.tests.TestClass@5e0826e7]" started-at="2021-10-30T17:12:51 IST" name="init" finished-at="2021-10-30T17:12:54 IST" duration-ms="3440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="testInit()[pri:0, instance:com.flipTask.tests.TestClass@5e0826e7]" started-at="2021-10-30T17:12:54 IST" name="testInit" finished-at="2021-10-30T17:12:54 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="validateRoundTripBooking(java.lang.String,java.lang.String)[pri:0, instance:com.flipTask.tests.TestClass@5e0826e7]" started-at="2021-10-30T17:12:54 IST" name="validateRoundTripBooking" finished-at="2021-10-30T17:13:39 IST" duration-ms="44965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1/December/2021]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30/December/2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRoundTripBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipTask.tests.TestClass@5e0826e7]" started-at="2021-10-30T17:13:39 IST" name="tearDown" finished-at="2021-10-30T17:13:40 IST" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.flipTask.tests.TestClass -->
+    </test> <!-- TestClass -->
+  </suite> <!-- Suite -->
+</testng-results>
